@@ -43,5 +43,18 @@
   "footer_lang": "Eng / Esp",
   "footer_made_by": "Made by Christian Sandoval",
   "marquee_1": "Travel as the Meaning of Life",
-  "marquee_2": "Know yourself through travel"
+  "marquee_2": "Know yourself through travel",
+  "tours_title": "Our Tours",
+  "tours_subtitle": "Discover the wonders of the Colombian Andes",
+  "tour_nevado_title": "Nevado del Tolima",
+  "tour_nevado_description": "A 3-day expedition to the heart of the Colombian Andes",
+  "tour_cocora_title": "Cocora Valley",
+  "tour_cocora_description": "A magical day among wax palms and unique landscapes",
+  "tour_carbonera_title": "La Carbonera",
+  "tour_carbonera_description": "Explore the hidden secrets of the mountain",
+  "tour_duration": "Duration:",
+  "tour_difficulty": "Difficulty:",
+  "tour_altitude": "Altitude:",
+  "tour_price_from": "From",
+  "tour_view_details": "View Details"
 }

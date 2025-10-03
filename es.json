@@ -43,5 +43,18 @@
   "footer_lang": "Eng / Esp",
   "footer_made_by": "Hecho por Christian Sandoval",
   "marquee_1": "Viajar como el sentido de la vida",
-  "marquee_2": "Conócete a ti mismo a través de los viajes"
+  "marquee_2": "Conócete a ti mismo a través de los viajes",
+  "tours_title": "Nuestros Tours",
+  "tours_subtitle": "Descubre las maravillas de los Andes colombianos",
+  "tour_nevado_title": "Nevado del Tolima",
+  "tour_nevado_description": "Una expedición de 3 días al corazón de los Andes colombianos",
+  "tour_cocora_title": "Valle de Cocora",
+  "tour_cocora_description": "Un día mágico entre palmas de cera y paisajes únicos",
+  "tour_carbonera_title": "La Carbonera",
+  "tour_carbonera_description": "Explora los secretos ocultos de la montaña",
+  "tour_duration": "Duración:",
+  "tour_difficulty": "Dificultad:",
+  "tour_altitude": "Altitud:",
+  "tour_price_from": "Desde",
+  "tour_view_details": "Ver Detalles"
 }
