@@ -34,6 +34,7 @@ D:\Nevado Trek Development\test-2\
 │   └───webflow.schunk.6c669f8d627d0abb.js
 ├───en.json                 # English translations
 ├───es.json                 # Spanish translations
+├───comments.md             # Raw customer reviews data
 ├───index.html              # Home page (original landing page)
 ├───tours.html              # Tours listing page
 ├───method.md               # Asset localization and scaling methodology
@@ -100,9 +101,31 @@ The website now includes:
 - **Smooth Animations**: GSAP-powered scroll-triggered animations and text effects
 - **Interactive Elements**: Language switcher, FAQ accordion, tour showcases
 - **Social Proof**: Certifications and testimonials integration
+- **Dynamic Reviews**: Real customer reviews dynamically loaded from structured data
 - **Local Asset Management**: All dependencies hosted locally for offline functionality
 
-## 9. Scalability Plan
+## 9. Reviews System Implementation
+
+To enhance user engagement by replacing placeholder testimonials with authentic customer feedback, a dynamic reviews system was implemented:
+
+### 9.1 Reviews Data Processing
+1. **Structured Extraction**: Customer reviews from `comments.md` were parsed into consistent JSON object format with standardized properties (name, subtitle, rating, photoUrl, date, review).
+2. **Data Sanitization**: All reviews were cleaned and formatted, ensuring consistent display across the application.
+3. **Export Array**: Created `js/reviews.js` as an ES6 module exporting the `reviews` array with all 51 processed reviews.
+
+### 9.2 Dynamic Population System
+1. **Modular Script**: Developed `js/populate-reviews.js` using modern JavaScript modules to handle DOM manipulation on page load.
+2. **Selective Targeting**: Precisely targets the 12 comment cards in the desktop section (split across 3 animated splide sliders), updating each element without affecting CSS or animations.
+3. **Content Mapping**: Maps review data to card elements (avatar, name, subtitle, rating, review text) with proper formatting.
+4. **Consistency Enforcement**: Standardizes quote formatting across all reviews to maintain visual consistency despite different element classes (.card-text vs .body-medium).
+
+### 9.3 Technical Implementation
+- **Non-Intrusive**: Operates without modifying existing HTML structure, CSS, or animation logic.
+- **Error Handling**: Includes null checks and class selector fallbacks for robust operation.
+- **Performance Optimized**: Executes once on DOMContentLoaded, ensuring no runtime impact on page performance.
+- **Maintainable**: Separated concerns allow easy updates to data source or display logic without breaking changes.
+
+## 10. Scalability Plan
 
 The current architecture supports easy expansion through:
 
@@ -112,7 +135,7 @@ The current architecture supports easy expansion through:
 4.  **Style Consistency**: Webflow styles maintained across all pages
 5.  **Performance**: Static file structure ensures fast loading times
 
-## 10. Future Enhancements
+## 11. Future Enhancements
 
 Planned improvements include:
 
