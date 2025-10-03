@@ -1,0 +1,5 @@
+.marquee-text {
+    white-space: nowrap;
+    width: fit-content;
+    min-width: auto !important;
+}

@@ -1,0 +1,1621 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Thu Oct 02 2025 22:58:38 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="nevado-trek-e4497d.webflow.io" data-wf-page="68cb38e0bae5b4c56edac1ae"
+    data-wf-site="68cb38dfbae5b4c56edac13a" data-wf-status="1">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mountain Jacket Landingpage – GSAP Animation</title>
+    <meta
+        content="Mountain Jacket Landingpage. I tested the new GSAP animations. A modern, outdoor-inspired design for Webflow users – built by Lukas Rudrof."
+        name="description" />
+    <meta content="Mountain Jacket Landingpage – GSAP Animation" property="og:title" />
+    <meta
+        content="Mountain Jacket Landingpage. I tested the new GSAP animations. A modern, outdoor-inspired design for Webflow users – built by Lukas Rudrof."
+        property="og:description" />
+    <meta content="Mountain Jacket Landingpage – GSAP Animation" property="twitter:title" />
+    <meta
+        content="Mountain Jacket Landingpage. I tested the new GSAP animations. A modern, outdoor-inspired design for Webflow users – built by Lukas Rudrof."
+        property="twitter:description" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link
+        href="css/nevado-trek-e4497d.webflow.shared.f242acfb1.css"
+        rel="stylesheet" type="text/css" />
+    <link href="css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="js/webfont.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Inter:300,regular,500,600,700,200italic,300italic,italic,500italic,600italic,700italic,800italic", "Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic"] } });</script>
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+    <link href="https://cdn.prod.website-files.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://cdn.prod.website-files.com/img/webclip.png" rel="apple-touch-icon" />
+</head>
+
+<body class="body">
+    <main class="main_wraper">
+        <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+            role="banner" class="nav-component w-nav">
+            <div class="container nav-container">
+                <div class="nav-wrap">
+                    <div class="div-block-3"><img
+                            src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb5ce8c1d01041b785dbbc_68718d175d5c3bac2cb5bb76_mainLogo.6fc859d138dc2b4452694a44bdc7e57f%201.svg"
+                            loading="lazy" alt="" class="image-9" />
+                        <p class="body-medium nt-txt-heading"><em>Nevado </em><br /><em>Trek</em></p>
+                    </div>
+                    <nav role="navigation" class="nav-links-wrap w-nav-menu">
+                        <div class="nav-links-bg"></div><a href="#"
+                            class="nav-links-text bottom-line w-nav-link" data-i18n="nav_home">Inicio</a><a href="#"
+                            class="nav-links-text w-nav-link" data-i18n="nav_tours">Tours</a><a href="#"
+                            class="nav-links-text w-nav-link" data-i18n="nav_gallery">Galería</a>
+                    </nav>
+                    <div class="div-block-126"><a href="#" class="button-5 c-green w-inline-block">
+                            <div class="body-small" data-i18n="contact_button">Contácto</div><svg xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor" width="20" height="20" viewBox="0 0 56 56" app="ikonik"
+                                class="ikonik-dvj54h">
+                                <path
+                                    d="M0.17,22.559188 C0.17,10.5904526 11.7325761,0.885839053 26,0.885839053 C40.2652635,0.885839053 51.83,10.5904526 51.83,22.559188 C51.83,34.5300838 40.2652635,44.2346974 26,44.2346974 C24.4509778,44.2346974 22.9365222,44.120195 21.4631148,43.9019924 C21.4609543,43.9019924 21.4566335,43.899832 21.4544731,43.899832 C17.9653923,43.0680697 16.4876639,46.9481868 8.53731265,48.9595393 C6.90403396,49.3743402 6.7074356,48.9616997 7.95831967,47.6352009 C10.2224415,45.2392934 12.4044672,41.3332512 10.1360246,39.6632454 C10.0668911,39.6221974 9.19192037,39.0194398 8.85921546,38.7753121 C3.5294555,34.8044573 0.17,29.0080463 0.17,22.559188 Z M38.1016,13 L14.4531,13 C13.6094,13 13,13.6328 13,14.4297 C13,15.25 13.6094,15.8828 14.4531,15.8828 L38.1016,15.8828 C38.9219,15.8828 39.5547,15.25 39.5547,14.4297 C39.5547,13.6328 38.9219,13 38.1016,13 Z M38.1016,21.1797 L14.4531,21.1797 C13.6094,21.1797 13,21.8359 13,22.6562 C13,23.4531 13.6094,24.0625 14.4531,24.0625 L38.1016,24.0625 C38.9219,24.0625 39.5547,23.4531 39.5547,22.6562 C39.5547,21.8359 38.9219,21.1797 38.1016,21.1797 Z M29.7579,29 L14.4531,29 C13.6094,29 13,29.6562 13,30.4765 C13,31.2734 13.6094,31.8828 14.4531,31.8828 L29.7579,31.8828 C30.5782,31.8828 31.211,31.2734 31.211,30.4765 C31.211,29.6562 30.5782,29 29.7579,29 Z"
+                                    transform="translate(2 3)" app="ikonik"></path>
+                            </svg>
+                        </a>
+                        <div class="language-switcher" style="display: inline-block; margin-left: 10px; vertical-align: middle;">
+                            <a href="#" class="body-small language-link" data-lang="es" style="color: white; text-decoration: none; padding: 5px; font-weight: bold;">ES</a>
+                            <span style="color: white;">/</span>
+                            <a href="#" class="language-link" data-lang="en" style="color: white; text-decoration: none; padding: 5px;">EN</a>
+                        </div>
+                        <div class="menu-button w-nav-button">
+                            <div class="w-icon-nav-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section is--hero">
+            <div class="hero-content">
+                <div class="div-block-63">
+                    <div></div>
+                    <div id="w-node-_946ede3b-963b-20b6-74c6-13c2d9d49eac-6edac1ae" class="div-block-65 main-heading">
+                        <h1 class="h-2 text-shadow-1"><span data-w-id="0215692d-2001-3aaf-cdf5-0c636822b0fd"
+                                style="opacity:0" class="text-span-5"></span><span class="text-span-4"><em
+                                    data-w-id="34db3b53-ade5-d0d3-537a-2714b25228a6" style="opacity:0"
+                                    class="italic-text-4" data-i18n="hero_title"><br />Un<br />Paraíso <br />En Salento</em></span></h1>
+                    </div>
+                    <div class="div-block-12">
+                        <div id="w-node-_7369bb5e-9724-fdd0-bd14-a427f2bf6dc5-6edac1ae" class="div-block-65">
+                            <div class="div-block-77">
+                                <div data-w-id="d55f2bc1-34f8-0aa2-b969-9cfd7f80b4c9" style="opacity:0"
+                                    class="button-6 small circled">
+                                    <div class="body-medium" data-i18n="hero_button">Ver Tours</div><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="20" height="20" viewBox="0 0 24 24" fill="none" app="ikonik"
+                                        class="ikonik-we8ljk">
+                                        <path
+                                            d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z"
+                                            fill="currentColor" app="ikonik" class="path-a7jh9"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <h1 data-w-id="0cdb02dd-0edf-81a4-6b74-4e49bda7315f" style="opacity:0"
+                                class="h-5 medium italic f-white text-shadow-1" data-i18n="hero_subtitle">Tu aventura, diseñada para dejar
+                                recuerdos inolvidables<br /></h1>
+                        </div>
+                        <div id="w-node-_8aaccd86-c683-86cd-4bb5-e08fb8c826db-6edac1ae" class="div-block-62">
+                            <div data-w-id="499f7866-5ca5-8c69-06b9-a2962fcd0a19" class="scroll-2"
+                                data-animation-type="lottie"
+                                data-src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d43762ccb9b4bb78dbb384_56245.json"
+                                data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0"
+                                data-renderer="svg" data-default-duration="2" data-duration="0"></div>
+                            <p class="body-medium italic f-white rnt">RNT: 05645453</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-bg">
+                <div class="hero-img_01"><img
+                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg"
+                        loading="eager" sizes="(max-width: 5317px) 100vw, 5317px"
+                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg 5317w"
+                        alt="" class="cover" />
+                    <div data-poster-url="https://cdn.prod.website-files.com/688b209bff44374447b04fc7%2F68974aa6bfd9f103292715b2_2871918-hd_1920_1080_30fps-poster-00001.jpg"
+                        data-video-urls="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb38e0bae5b4c56edac1c0_2871918-hd_1920_1080_30fps-transcode.mp4,https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb38e0bae5b4c56edac1c0_2871918-hd_1920_1080_30fps-transcode.webm"
+                        data-autoplay="true" data-loop="true" data-wf-ignore="true"
+                        class="scroll-video_element w-background-video w-background-video-atom"><video
+                            id="a4d04c9c-9835-80c5-6616-0df563503fd0-video" autoplay="" loop=""
+                            style="background-image:url(&quot;https://cdn.prod.website-files.com/688b209bff44374447b04fc7%2F68974aa6bfd9f103292715b2_2871918-hd_1920_1080_30fps-poster-00001.jpg&quot;)"
+                            muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                            <source
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb38e0bae5b4c56edac1c0_2871918-hd_1920_1080_30fps-transcode.mp4"
+                                data-wf-ignore="true" />
+                            <source
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb38e0bae5b4c56edac1c0_2871918-hd_1920_1080_30fps-transcode.webm"
+                                data-wf-ignore="true" />
+                        </video></div>
+                    <div class="div-block-78"></div>
+                </div>
+            </div>
+        </section>
+        <div data-w-id="b5c1c17d-59af-bda7-d454-d630b17e51b3" class="div-block-85">
+            <div class="clone-this-part">
+                <div class="section_text-scroll white-bg">
+                    <div class="padding-global edited">
+                        <div class="container-medium">
+                            <div class="padding-section-large align-left">
+                                <div data-w-id="a711d69e-1d1a-e715-64d8-7f0f201c751d" class="heading_wrap-2 vertical">
+                                    <h1 class="h-5 italic" data-i18n="experiences_title">( Experiencias )</h1>
+                                    <p class="split-lines_large f-blue f-tours-2-heading" data-i18n="experiences_subtitle"><span class="word-span-1">No
+                                        </span><span class="word-span-2">importa </span><span class="word-span-3">la
+                                        </span><span class="word-span-4">ruta </span><span class="word-span-5">que
+                                        </span><span class="word-span-6">elijas, </span><span class="word-span-7">lo
+                                        </span><span class="word-span-8">más </span><span class="word-span-9">valioso
+                                        </span><span class="word-span-10">es </span><span class="word-span-11">como
+                                        </span><span class="word-span-12">la vives</span> <span class="word-span-13">y
+                                            quien </span><span class="word-span-14">te </span><span
+                                            class="word-span-15">acompaña. <br /></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="tours-2">
+                <div class="home-tour-card card-01">
+                    <div class="tour-card">
+                        <div class="div-block-55"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                fill="currentColor" viewBox="0 0 16 16" app="ikonik" class="ikonik-ovyf8k">
+                                <path
+                                    d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"
+                                    app="ikonik" class="path-2"></path>
+                            </svg>
+                            <h1 class="h-5 italic" data-i18n="upcoming_trips_title">( Próximas Salidas)</h1>
+                        </div><a data-w-id="e883b598-db4a-dc47-bad6-05a5120deb6b"
+                            style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                            href="/tour-page" class="div-block-17 info-container w-inline-block">
+                            <div class="div-block-20 top">
+                                <div class="div-block-20 top"></div>
+                            </div>
+                            <div class="div-block-20">
+                                <div class="div-block-64">
+                                    <div class="div-block-86">
+                                        <div class="pink-chip"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                                app="ikonik" class="ikonik-2567">
+                                                <path
+                                                    d="M7 1V3H3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H10.7546C9.65672 19.6304 9 17.8919 9 16C9 11.5817 12.5817 8 17 8C18.8919 8 20.6304 8.65672 22 9.75463V4C22 3.44772 21.5523 3 21 3H17V1H15V3H9V1H7ZM23 16C23 19.3137 20.3137 22 17 22C13.6863 22 11 19.3137 11 16C11 12.6863 13.6863 10 17 10C20.3137 10 23 12.6863 23 16ZM16 12V16.4142L18.2929 18.7071L19.7071 17.2929L18 15.5858V12H16Z"
+                                                    app="ikonik"></path>
+                                            </svg>
+                                            <p class="body-small">11/10/25</p>
+                                        </div>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">3400 MSNM</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">4 Días</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-56"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none" app="ikonik" class="ikonik-8mduj">
+                                        <path
+                                            d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z"
+                                            fill="currentColor" app="ikonik" class="path-oy0s2"></path>
+                                    </svg></div>
+                            </div><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg"
+                                loading="lazy" sizes="(max-width: 5317px) 100vw, 5317px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg 5317w"
+                                alt="" class="image-8 main-tour-img" />
+                        </a>
+                        <div class="tour-card-container-text">
+                            <div class="div-block-24">
+                                <h1 class="h-5 medium italic tour-name-heading">Nevado del Tolima</h1>
+                                <div class="div-block-57">
+                                    <h1 class="h-6 price-h">$ 780.000 COP</h1>
+                                    <p class="body-medium f-grey italic descriptin-responsiveness">Ruta poco concurrida
+                                        hacia el mayor bosque de palmas de cera</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-block-54 tablet-hide"><img
+                            src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2.jpg"
+                            loading="lazy" sizes="(max-width: 3000px) 100vw, 3000px"
+                            srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2.jpg 3000w"
+                            alt="" class="image-7" />
+                        <p class="body-medium f-grey italic">Ruta poco concurrida hacia el mayor bosque de palmas de
+                            cera</p>
+                    </div>
+                </div>
+                <div id="w-node-_33b8c53b-c888-8108-7a93-e9a400181533-6edac1ae" class="home-card-tour-2 card-02">
+                    <div id="w-node-_78f45aab-87a6-6be4-7315-11fc279a8ea9-6edac1ae" class="tour-card _02"><a
+                            data-w-id="17dfd69c-e4f3-563d-07c0-048284787a87"
+                            style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                            href="/tour-page" class="div-block-17 info-container w-inline-block">
+                            <div class="div-block-20 top">
+                                <div class="div-block-20 top"></div>
+                            </div>
+                            <div class="div-block-20">
+                                <div class="div-block-64">
+                                    <div>
+                                        <div class="pink-chip"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                                app="ikonik" class="ikonik-2567">
+                                                <path
+                                                    d="M7 1V3H3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H10.7546C9.65672 19.6304 9 17.8919 9 16C9 11.5817 12.5817 8 17 8C18.8919 8 20.6304 8.65672 22 9.75463V4C22 3.44772 21.5523 3 21 3H17V1H15V3H9V1H7ZM23 16C23 19.3137 20.3137 22 17 22C13.6863 22 11 19.3137 11 16C11 12.6863 13.6863 10 17 10C20.3137 10 23 12.6863 23 16ZM16 12V16.4142L18.2929 18.7071L19.7071 17.2929L18 15.5858V12H16Z"
+                                                    app="ikonik"></path>
+                                            </svg>
+                                            <p class="body-small">11/10/25</p>
+                                        </div>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">3400 MSNM</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">4 Días</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-56"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none" app="ikonik" class="ikonik-8mduj">
+                                        <path
+                                            d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z"
+                                            fill="currentColor" app="ikonik" class="path-oy0s2"></path>
+                                    </svg></div>
+                            </div><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg"
+                                loading="lazy" sizes="(max-width: 3992px) 100vw, 3992px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg 3992w"
+                                alt="" class="image-8 main-tour-img" />
+                        </a>
+                        <div class="tour-card-container-text">
+                            <div class="div-block-24">
+                                <h1 class="h-5 medium italic tour-name-heading">La Carbonera</h1>
+                                <div class="div-block-57">
+                                    <h1 class="h-6 price-h">$ 780.000 COP</h1>
+                                    <p class="body-medium f-grey italic">Ruta poco concurrida hacia el mayor bosque de
+                                        palmas de cera</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-tour-card card-01">
+                    <div class="div-block-54 tablet-hide"><img
+                            src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2.jpg"
+                            loading="lazy" sizes="(max-width: 3000px) 100vw, 3000px"
+                            srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2.jpg 3000w"
+                            alt="" class="image-7" />
+                        <p class="body-medium f-grey italic">Ruta poco concurrida hacia el mayor bosque de palmas de
+                            cera</p>
+                    </div>
+                    <div class="tour-card"><a data-w-id="30311984-c3a6-6388-0898-7a54064c2a7c"
+                            style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                            href="/tour-page" class="div-block-17 info-container w-inline-block">
+                            <div class="div-block-20 top">
+                                <div class="div-block-20 top"></div>
+                            </div>
+                            <div class="div-block-20">
+                                <div class="div-block-64">
+                                    <div class="div-block-86">
+                                        <div class="pink-chip"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                                app="ikonik" class="ikonik-2567">
+                                                <path
+                                                    d="M7 1V3H3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H10.7546C9.65672 19.6304 9 17.8919 9 16C9 11.5817 12.5817 8 17 8C18.8919 8 20.6304 8.65672 22 9.75463V4C22 3.44772 21.5523 3 21 3H17V1H15V3H9V1H7ZM23 16C23 19.3137 20.3137 22 17 22C13.6863 22 11 19.3137 11 16C11 12.6863 13.6863 10 17 10C20.3137 10 23 12.6863 23 16ZM16 12V16.4142L18.2929 18.7071L19.7071 17.2929L18 15.5858V12H16Z"
+                                                    app="ikonik"></path>
+                                            </svg>
+                                            <p class="body-small">11/10/25</p>
+                                        </div>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">3400 MSNM</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">4 Días</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-56"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none" app="ikonik" class="ikonik-8mduj">
+                                        <path
+                                            d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z"
+                                            fill="currentColor" app="ikonik" class="path-oy0s2"></path>
+                                    </svg></div>
+                            </div><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg"
+                                loading="lazy" sizes="(max-width: 5317px) 100vw, 5317px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg 5317w"
+                                alt="" class="image-8 main-tour-img" />
+                        </a>
+                        <div class="tour-card-container-text">
+                            <div class="div-block-24">
+                                <h1 class="h-5 medium italic tour-name-heading">Nevado del Tolima</h1>
+                                <div class="div-block-57">
+                                    <h1 class="h-6 price-h">$ 780.000 COP</h1>
+                                    <p class="body-medium f-grey italic descriptin-responsiveness">Ruta poco concurrida
+                                        hacia el mayor bosque de palmas de cera</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-card-tour-2 card-02">
+                    <div id="w-node-_430fc8c3-486a-6dd3-031b-5ad03018a760-6edac1ae" class="tour-card _02"><a
+                            data-w-id="430fc8c3-486a-6dd3-031b-5ad03018a761"
+                            style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                            href="/tour-page" class="div-block-17 info-container w-inline-block">
+                            <div class="div-block-20 top">
+                                <div class="div-block-20 top"></div>
+                            </div>
+                            <div class="div-block-20">
+                                <div class="div-block-64">
+                                    <div>
+                                        <div class="pink-chip"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                                app="ikonik" class="ikonik-2567">
+                                                <path
+                                                    d="M7 1V3H3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H10.7546C9.65672 19.6304 9 17.8919 9 16C9 11.5817 12.5817 8 17 8C18.8919 8 20.6304 8.65672 22 9.75463V4C22 3.44772 21.5523 3 21 3H17V1H15V3H9V1H7ZM23 16C23 19.3137 20.3137 22 17 22C13.6863 22 11 19.3137 11 16C11 12.6863 13.6863 10 17 10C20.3137 10 23 12.6863 23 16ZM16 12V16.4142L18.2929 18.7071L19.7071 17.2929L18 15.5858V12H16Z"
+                                                    app="ikonik"></path>
+                                            </svg>
+                                            <p class="body-small">11/10/25</p>
+                                        </div>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">3400 MSNM</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">4 Días</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-56"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none" app="ikonik" class="ikonik-8mduj">
+                                        <path
+                                            d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z"
+                                            fill="currentColor" app="ikonik" class="path-oy0s2"></path>
+                                    </svg></div>
+                            </div><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg"
+                                loading="lazy" sizes="(max-width: 3992px) 100vw, 3992px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg 3992w"
+                                alt="" class="image-8 main-tour-img" />
+                        </a>
+                        <div class="tour-card-container-text">
+                            <div class="div-block-24">
+                                <h1 class="h-5 medium italic tour-name-heading">La Carbonera</h1>
+                                <div class="div-block-57">
+                                    <h1 class="h-6 price-h">$ 780.000 COP</h1>
+                                    <p class="body-medium f-grey italic">Ruta poco concurrida hacia el mayor bosque de
+                                        palmas de cera</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-tour-card card-01">
+                    <div class="tour-card"><a data-w-id="c9bd53c2-9032-61ef-ba45-35db94b8861b"
+                            style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                            href="/tour-page" class="div-block-17 info-container w-inline-block">
+                            <div class="div-block-20 top">
+                                <div class="div-block-20 top"></div>
+                            </div>
+                            <div class="div-block-20">
+                                <div class="div-block-64">
+                                    <div class="div-block-86">
+                                        <div class="pink-chip"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24" width="20" height="20" fill="currentColor"
+                                                app="ikonik" class="ikonik-2567">
+                                                <path
+                                                    d="M7 1V3H3C2.44772 3 2 3.44772 2 4V20C2 20.5523 2.44772 21 3 21H10.7546C9.65672 19.6304 9 17.8919 9 16C9 11.5817 12.5817 8 17 8C18.8919 8 20.6304 8.65672 22 9.75463V4C22 3.44772 21.5523 3 21 3H17V1H15V3H9V1H7ZM23 16C23 19.3137 20.3137 22 17 22C13.6863 22 11 19.3137 11 16C11 12.6863 13.6863 10 17 10C20.3137 10 23 12.6863 23 16ZM16 12V16.4142L18.2929 18.7071L19.7071 17.2929L18 15.5858V12H16Z"
+                                                    app="ikonik"></path>
+                                            </svg>
+                                            <p class="body-small">11/10/25</p>
+                                        </div>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">3400 MSNM</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper mobile-hide"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20"
+                                            height="20" app="ikonik" class="ikonik-tvfqk">
+                                            <g fill="none" fill-rule="evenodd" app="ikonik">
+                                                <path fill="currentColor"
+                                                    d="M8.70098,5.75 C9.27833,4.75 10.7217,4.75 11.2991,5.75 L14.7991,11.8122 L15.701,10.25 C16.2784,9.25 17.7217,9.25 18.2991,10.25 L22.6292,17.75 C23.2066,18.75 22.4849,20 21.3302,20 L17.0001,20 L17.0001,19.9984 C16.9763,19.9995 16.9524,20 16.9282,20 L3.07182,20 C1.91711,20 1.19543,18.75 1.77278,17.75 L8.70098,5.75 Z M7.79128,11.3256 L8.50004,11.7981 L9.44534,11.1679 C9.78124,10.944 10.2188,10.944 10.5547,11.1679 L11.5,11.7981 L12.2088,11.3257 L10,7.5 L7.79128,11.3256 Z"
+                                                    app="ikonik" class="path-xxhlc"></path>
+                                                <path
+                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5935,23.2578 L12.5819,23.2595 L12.5109,23.295 L12.4919,23.2987 L12.4767,23.295 L12.4057,23.2595 C12.3958,23.2564 12.387,23.259 12.3821,23.2649 L12.378,23.2758 L12.3609,23.7031 L12.3659,23.7235 L12.3769,23.7357 L12.4805,23.8097 L12.4953,23.8136 L12.5071,23.8097 L12.6107,23.7357 L12.6233,23.7197 L12.6267,23.7031 L12.6096,23.2758 C12.6076,23.2657 12.601,23.2593 12.5935,23.2578 Z M12.8584,23.1453 L12.8445,23.1473 L12.6598,23.2397 L12.6499,23.2499 L12.6472,23.2611 L12.6651,23.6906 L12.6699,23.7034 L12.6784,23.7105 L12.8793,23.8032 C12.8914,23.8069 12.9022,23.803 12.9078,23.7952 L12.9118,23.7812 L12.8777,23.1665 C12.8753,23.1546 12.8674,23.147 12.8584,23.1453 Z M12.143,23.1473 C12.1332,23.1424 12.1222,23.1453 12.1156,23.1526 L12.1099,23.1665 L12.0758,23.7812 C12.0751,23.7927 12.0828,23.8019 12.0926,23.8046 L12.1083,23.8032 L12.3092,23.7105 L12.3186,23.7024 L12.3225,23.6906 L12.3404,23.2611 L12.3372,23.2485 L12.3278,23.2397 L12.143,23.1473 Z"
+                                                    app="ikonik"></path>
+                                            </g>
+                                        </svg>
+                                        <p class="body-small">4 Días</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-56"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none" app="ikonik" class="ikonik-8mduj">
+                                        <path
+                                            d="M13.4697 8.53033C13.1768 8.23744 13.1768 7.76256 13.4697 7.46967C13.7626 7.17678 14.2374 7.17678 14.5303 7.46967L18.5303 11.4697C18.8232 11.7626 18.8232 12.2374 18.5303 12.5303L14.5303 16.5303C14.2374 16.8232 13.7626 16.8232 13.4697 16.5303C13.1768 16.2374 13.1768 15.7626 13.4697 15.4697L16.1893 12.75H6.5C6.08579 12.75 5.75 12.4142 5.75 12C5.75 11.5858 6.08579 11.25 6.5 11.25H16.1893L13.4697 8.53033Z"
+                                            fill="currentColor" app="ikonik" class="path-oy0s2"></path>
+                                    </svg></div>
+                            </div><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg"
+                                loading="lazy" sizes="(max-width: 5317px) 100vw, 5317px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg 5317w"
+                                alt="" class="image-8 main-tour-img" />
+                        </a>
+                        <div class="tour-card-container-text">
+                            <div class="div-block-24">
+                                <h1 class="h-5 medium italic tour-name-heading">Nevado del Tolima</h1>
+                                <div class="div-block-57">
+                                    <h1 class="h-6 price-h">$ 780.000 COP</h1>
+                                    <p class="body-medium f-grey italic descriptin-responsiveness">Ruta poco concurrida
+                                        hacia el mayor bosque de palmas de cera</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-block-54 tablet-hide"><img
+                            src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2.jpg"
+                            loading="lazy" sizes="(max-width: 3000px) 100vw, 3000px"
+                            srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b36c6e96f72e1d36072_IMG_20250119_062320~2.jpg 3000w"
+                            alt="" class="image-7" />
+                        <p class="body-medium f-grey italic">Ruta poco concurrida hacia el mayor bosque de palmas de
+                            cera</p>
+                    </div>
+                </div>
+            </section>
+            <div class="clone-this-part">
+                <div class="section_text-scroll">
+                    <div class="padding-global">
+                        <div class="container-medium">
+                            <div class="padding-section-large">
+                                <h1 class="h-5 italic" data-i18n="services_title">( Servicios )</h1>
+                                <div data-w-id="7cd0de5e-679b-fce5-736b-61938b4cee44" class="heading_wrap-2 services">
+                                    <div class="div-block-99">
+                                        <p class="split-lines_large" data-i18n="services_subtitle"><span class="word-span-1">Traemos </span><span
+                                                class="word-span-2">nuevas </span><span class="word-span-3"> emociones
+                                            </span><span class="word-span-4">y</span><span class="word-span-5">
+                                                descubrimientos </span><span class="word-span-6">a tu vida, </span><span
+                                                class="word-span-7">incluso en </span><span class="word-span-9">lugares
+                                            </span><span class="word-span-10">conocidos, </span><span
+                                                class="word-span-11">con nosotros </span><span
+                                                class="word-span-12">ahorras</span> <span class="word-span-13">tu
+                                                valioso </span><span class="word-span-14">tiempo en </span><span
+                                                class="word-span-15">la planificación.</span> </p>
+                                    </div>
+                                    <div class="div-block-98">
+                                        <div data-w-id="84d63728-8b6d-4742-f779-441696f7e00c" style="opacity:0"
+                                            class="button-6 small">
+                                            <div class="div-block-105"></div>
+                                            <div class="body-medium" data-i18n="services_button">Ver Tours</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="section-5">
+                <div data-delay="4000" data-animation="slide" class="slider-2 w-slider" data-autoplay="false"
+                    data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
+                    data-nav-spacing="3" data-duration="500" data-infinite="true">
+                    <div class="mask-2 w-slider-mask">
+                        <div class="slide-2 w-slide">
+                            <div class="div-block-97">
+                                <div class="div-block-103"><img
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg"
+                                        loading="lazy" sizes="(max-width: 3992px) 100vw, 3992px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg 3992w"
+                                        alt="" class="image-10 inner-shadow-filter" /></div>
+                                <div class="div-block-102">
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_1">+ 150 Expediciones Exitosas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_2">Experiencias auténticas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_3">Itinerarios flexibles</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-104">
+                                    <h4 class="split-lines_large f-white bold" data-i18n="slider_title_4">Exploración a tu Medida</h4>
+                                    <p class="body-large service-sliding-card-p" data-i18n="slider_p">Time is the most valuable resource for
+                                        each of us. Enjoy the anticipation of your upcoming trip while we take care of
+                                        all aspects of its organization.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-2 w-slide">
+                            <div class="div-block-97">
+                                <div class="div-block-103"><img
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg"
+                                        loading="lazy" sizes="(max-width: 3992px) 100vw, 3992px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg 3992w"
+                                        alt="" class="image-10 inner-shadow-filter" /></div>
+                                <div class="div-block-102">
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_1">+ 150 Expediciones Exitosas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_2">Experiencias auténticas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_3">Itinerarios flexibles</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-104">
+                                    <h4 class="split-lines_large f-white bold" data-i18n="slider_title_4">Exploración a tu Medida</h4>
+                                    <p class="body-large service-sliding-card-p" data-i18n="slider_p">Time is the most valuable resource for
+                                        each of us. Enjoy the anticipation of your upcoming trip while we take care of
+                                        all aspects of its organization.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-2 w-slide">
+                            <div class="div-block-97">
+                                <div class="div-block-103"><img
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg"
+                                        loading="lazy" sizes="(max-width: 3992px) 100vw, 3992px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg 3992w"
+                                        alt="" class="image-10 inner-shadow-filter" /></div>
+                                <div class="div-block-102">
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_1">+ 150 Expediciones Exitosas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_2">Experiencias auténticas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_3">Itinerarios flexibles</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-104">
+                                    <h4 class="split-lines_large f-white bold" data-i18n="slider_title_4">Exploración a tu Medida</h4>
+                                    <p class="body-large service-sliding-card-p" data-i18n="slider_p">Time is the most valuable resource for
+                                        each of us. Enjoy the anticipation of your upcoming trip while we take care of
+                                        all aspects of its organization.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-2 w-slide">
+                            <div class="div-block-97">
+                                <div class="div-block-103"><img
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg"
+                                        loading="lazy" sizes="(max-width: 3992px) 100vw, 3992px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg 3992w"
+                                        alt="" class="image-10 inner-shadow-filter" /></div>
+                                <div class="div-block-102">
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_1">+ 150 Expediciones Exitosas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_2">Experiencias auténticas</p>
+                                    </div>
+                                    <div class="chip-tour-info-wrapper squared light">
+                                        <p class="body-medium" data-i18n="slider_title_3">Itinerarios flexibles</p>
+                                    </div>
+                                </div>
+                                <div class="div-block-104">
+                                    <h4 class="split-lines_large f-white bold" data-i18n="slider_title_4">Exploración a tu Medida</h4>
+                                    <p class="body-large service-sliding-card-p" data-i18n="slider_p">Time is the most valuable resource for
+                                        each of us. Enjoy the anticipation of your upcoming trip while we take care of
+                                        all aspects of its organization.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left-arrow w-slider-arrow-left">
+                        <div data-w-id="6845a175-10fb-bba4-e8b2-7c793bd2916f" style="opacity:0" class="div-block-96">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" app="ikonik" class="ikonik-88q18j">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M14.0303 7.46967C14.3232 7.76256 14.3232 8.23744 14.0303 8.53033L10.5607 12L14.0303 15.4697C14.3232 15.7626 14.3232 16.2374 14.0303 16.5303C13.7374 16.8232 13.2626 16.8232 12.9697 16.5303L8.96967 12.5303C8.67678 12.2374 8.67678 11.7626 8.96967 11.4697L12.9697 7.46967C13.2626 7.17678 13.7374 7.17678 14.0303 7.46967Z"
+                                    fill="currentColor" app="ikonik" class="path-zp27g"></path>
+                            </svg></div>
+                    </div>
+                    <div class="right-arrow w-slider-arrow-right">
+                        <div data-w-id="b3ec77c4-0fbc-da57-bf56-ad5f752f7cb7" style="opacity:0" class="div-block-96">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" app="ikonik" class="ikonik-eae2xh">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M9.96967 7.46967C10.2626 7.17678 10.7374 7.17678 11.0303 7.46967L15.0303 11.4697C15.3232 11.7626 15.3232 12.2374 15.0303 12.5303L11.0303 16.5303C10.7374 16.8232 10.2626 16.8232 9.96967 16.5303C9.67678 16.2374 9.67678 15.7626 9.96967 15.4697L13.4393 12L9.96967 8.53033C9.67678 8.23744 9.67678 7.76256 9.96967 7.46967Z"
+                                    fill="currentColor" app="ikonik" class="path-uo48m"></path>
+                            </svg></div>
+                    </div>
+                    <div class="slide-nav w-slider-nav w-round w-num"></div>
+                </div>
+            </section>
+            <section id="intro" class="section-2 bottom">
+                <div class="div-block-50">
+                    <div class="slide-carreell _01">
+                        <h2 class="style-h1 _01 marquee-text" data-i18n="marquee_1">as the Meaning of LifeTravel</h2>
+                        <h2 class="style-h1 f-blue-2">*</h2>
+                        <h2 class="style-h1 _01 marquee-text" data-i18n="marquee_1">as the Meaning of LifeTravel</h2>
+                    </div>
+                </div>
+                <div class="div-block-49">
+                    <div class="slide-carreell _02">
+                        <h2 class="style-h1 italic _03 marquee-text" data-i18n="marquee_2">Know yourself through travel</h2>
+                        <h2 class="style-h1 f-blue-2">*</h2>
+                        <h2 class="style-h1 italic _03 marquee-text" data-i18n="marquee_2">Know yourself through travel</h2>
+                    </div>
+                </div>
+                <div class="div-block-108">
+                    <div class="slide-carreell _03">
+                        <h2 class="style-h1">COCORA</h2>
+                        <h2 class="style-h1 f-blue-2">*</h2>
+                        <h2 class="style-h1">PÀRAMO</h2>
+                        <h2 class="style-h1 f-blue-2">*</h2>
+                        <h2 class="style-h1">CARBONERA</h2>
+                        <h2 class="style-h1 f-blue-2">*</h2>
+                        <h2 class="style-h1">TAPIR</h2>
+                        <h2 class="style-h1 f-blue-2">*</h2>
+                        <h2 class="style-h1">PARAMILLO</h2>
+                    </div>
+                </div>
+            </section>
+            <div class="div-block-93"><img
+                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb38e0bae5b4c56edac1b6_lummi-ai_Man-in-Snowy-Environment.avif"
+                    loading="lazy" sizes="(max-width: 1011px) 100vw, 1011px"
+                    srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb38e0bae5b4c56edac1b6_lummi-ai_Man-in-Snowy-Environment.avif 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb38e0bae5b4c56edac1b6_lummi-ai_Man-in-Snowy-Environment.avif 1011w"
+                    alt="" class="cover" /></div>
+            <section class="mobile-comments">
+                <div class="section-spacing project">
+                    <div class="container-2">
+                        <div class="project-grid">
+                            <div class="project-block">
+                                <h1 class="h-5 italic">( Comentarios )</h1>
+                                <div data-w-id="f5205d16-0a56-eace-ed4e-4b636a04e165" class="heading_wrap-2">
+                                    <p class="split-lines_large"><span class="word-span-2">Opiniones de</span><span
+                                            class="word-span-5"> nuestros </span><span
+                                            class="word-span-6">aventureros</span> </p>
+                                </div>
+                                <div data-delay="4000" data-animation="slide" class="slider w-slider"
+                                    data-autoplay="false" data-easing="ease" data-hide-arrows="false"
+                                    data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3"
+                                    data-duration="500" data-infinite="true">
+                                    <div class="mask w-slider-mask">
+                                        <div class="slide w-slide">
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="46" height="46"
+                                                                    alt="Avatar"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b5_avatar.jpg"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="body-medium">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide w-slide">
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="46" height="46"
+                                                                    alt="Avatar"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b5_avatar.jpg"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="body-medium">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide w-slide">
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="46" height="46"
+                                                                    alt="Avatar"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b5_avatar.jpg"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="body-medium">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slide w-slide">
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="46" height="46"
+                                                                    alt="Avatar"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b5_avatar.jpg"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="body-medium">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="left-arrow-2 w-slider-arrow-left">
+                                        <div class="icon-2 w-icon-slider-left"></div>
+                                    </div>
+                                    <div class="right-arrow-2 w-slider-arrow-right">
+                                        <div class="icon w-icon-slider-right"></div>
+                                    </div>
+                                    <div class="slide-nav-2 w-slider-nav w-round w-num"></div>
+                                </div>
+                                <div class="div-block-52">
+                                    <div>
+                                        <div data-w-id="d5e2f1de-7b6f-3709-190a-c97b549c126c" style="opacity:0"
+                                            class="button-6 small">
+                                            <div class="div-block-105"></div>
+                                            <div class="body-medium">Ver en Google</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-project">
+                <div class="section-spacing project">
+                    <div class="container-2">
+                        <div class="project-grid">
+                            <div class="project-block comments-heading-container">
+                                <div class="div-block-109">
+                                    <h1 class="h-5 italic comment-txt">( Comentarios )</h1>
+                                </div>
+                                <p class="split-lines_large"><span class="word-span-2">Opiniones de</span><span
+                                        class="word-span-5"> Aventureros</span> </p>
+                                <div>
+                                    <div data-w-id="d2347698-5c4b-820f-69e6-38598e40c04d" style="opacity:0"
+                                        class="button-6 small">
+                                        <div class="div-block-105"></div>
+                                        <div class="body-medium">Ver en Google</div>
+                                    </div>
+                                </div>
+                                <div class="div-block-95"><img
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414.jpg"
+                                        loading="lazy" sizes="(max-width: 5712px) 100vw, 5712px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc6b68535cef7be094231e_IMG_0414.jpg 5712w"
+                                        alt="" class="image-3" /></div>
+                            </div>
+                            <div class="project-sliders-wrapper">
+                                <div data-direction="reversed" class="splide tinyflow-slider right">
+                                    <div class="splide__track right">
+                                        <div class="splide__list right-track">
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man with a goatee is looking at the camera."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757bf_user-3.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man with a beard wearing a hat."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757c8_user-4.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of c</p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img loading="lazy"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757bc_user-5.png"
+                                                                    alt="A man with a goatee and a beard."
+                                                                    class="media__avatar__background" /></figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Developer Zahid</h2>
+                                                                <p class="media__content__text">Founder of DevZ</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man with a beard wearing a white shirt and tie."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757c5_user-6.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of c</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="splide tinyflow-slider">
+                                    <div class="splide__track">
+                                        <div class="splide__list">
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="46" height="46"
+                                                                    alt="Avatar"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b5_avatar.jpg"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="body-medium">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man wearing glasses and a purple shirt."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b9_user-2.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of company</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of c</p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img loading="lazy"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757bf_user-3.png"
+                                                                    alt="A man with a goatee is looking at the camera."
+                                                                    class="media__avatar__background" /></figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man in a suit and tie in a circle."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757c2_user-7.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of c</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-direction="reversed" class="splide tinyflow-slider right">
+                                    <div class="splide__track right">
+                                        <div class="splide__list right-track">
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man with a goatee is looking at the camera."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757bf_user-3.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man with a beard wearing a hat."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757c8_user-4.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of c</p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img loading="lazy"
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757bc_user-5.png"
+                                                                    alt="A man with a goatee and a beard."
+                                                                    class="media__avatar__background" /></figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Developer Zahid</h2>
+                                                                <p class="media__content__text">Founder of DevZ</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of caffeine”more invigorating and tuned-in than
+                                                        Kotler. more invigorating and tuned-in than Kotler. </p>
+                                                </div>
+                                            </div>
+                                            <div class="splide__slide">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="media">
+                                                            <figure class="media__avatar"><img width="62" height="62"
+                                                                    alt="A man with a beard wearing a white shirt and tie."
+                                                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757c5_user-6.png"
+                                                                    loading="lazy" class="media__avatar__background" />
+                                                            </figure>
+                                                            <div class="media__content">
+                                                                <h2 class="media__content__title">Sahawardi Khis</h2>
+                                                                <p class="media__content__text">Founder of spaceX </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card-header-aside"><img width="15" height="15"
+                                                                alt=""
+                                                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc91b4d696a16457f757b7_star.svg"
+                                                                loading="lazy" />
+                                                            <div class="card-header-text">4.8</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-divider"></div>
+                                                    <p class="card-text">“It’s difficult to think of a writer more
+                                                        invigorating and tuned-in than Kotler. Tomorrowland is like
+                                                        taking a shot of c</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-6">
+                <div id="w-node-cc2aecfe-ec19-4693-1beb-90ed6f670d86-6edac1ae" class="div-block-100">
+                    <div id="w-node-_21b513d1-410a-4366-d566-fdfe0b604e93-6edac1ae" class="div-block-107">
+                        <p class="body-large italic absolute-heading" data-i18n="about_title">( Nosotros )</p>
+                    </div>
+                    <div id="w-node-e0c11e34-a774-3e7f-31ce-2ff91eba3349-6edac1ae" class="parallax-img-wrapper story">
+                        <div class="parallax-img-container story"><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%CC%88stro%CC%88m-1295036.jpg"
+                                loading="lazy" sizes="(max-width: 2854px) 100vw, 2854px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%CC%88stro%CC%88m-1295036.jpg 2854w"
+                                alt="" class="image-4 parallax-img-inner" /></div>
+                    </div>
+                </div>
+                <div id="w-node-ab213a6c-d289-202e-96f5-e9ca80e8cdb7-6edac1ae" class="div-block-101">
+                    <p id="w-node-a64b1845-cc52-dab4-b52c-ce657d24489f-6edac1ae" class="body-large" data-i18n="about_text_1"><strong>Nevado
+                            Trek</strong> nace en Salento, corazón del Eje Cafetero, con la misión de llevar a cada
+                        viajero a descubrir la grandeza de los Andes colombianos. Nuestro equipo está formado por guías
+                        locales apasionados por la montaña y comprometidos con un turismo responsable y auténtico. Más
+                        que simples recorridos, diseñamos experiencias que conectan al viajero con la cultura, la
+                        historia y la magia de los senderos que conducen al <strong>Nevado del Tolima</strong> y a otros
+                        tesoros escondidos como el Valle de Cocora y la Carbonera.</p>
+                    <div id="w-node-_995f5cc9-50a9-711c-5e98-45b6fda15fd5-6edac1ae"
+                        class="parallax-img-wrapper small-size">
+                        <div class="parallax-img-container"><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg"
+                                loading="lazy" sizes="(max-width: 3992px) 100vw, 3992px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776f1_pexels-kelly-2887293.jpg 3992w"
+                                alt="" class="image-4 parallax-img-inner" /></div>
+                    </div>
+                    <p id="w-node-_436fece6-45bb-1dd2-3e76-6a700121acf4-6edac1ae" class="body-large" data-i18n="about_text_2">Caminar estas
+                        montañas es adentrarse en un universo natural único. Los senderos atraviesan bosques de niebla
+                        cargados de musgos y orquídeas, y ascienden hacia páramos donde reinan los frailejones,
+                        guardianes silenciosos del agua y la vida. Cada paso es un encuentro con paisajes cambiantes:
+                        cascadas cristalinas, valles abiertos y vistas que parecen tocar el cielo. Aquí, la flora se
+                        convierte en protagonista y nos recuerda la fragilidad y belleza de los ecosistemas de alta
+                        montaña.<br /></p>
+                    <div id="w-node-e163351e-2f43-b6c2-87cb-714d6d88a95f-6edac1ae"
+                        class="parallax-img-wrapper small-size">
+                        <div class="parallax-img-container"><img
+                                src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg"
+                                loading="lazy" sizes="(max-width: 5317px) 100vw, 5317px"
+                                srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058-p-3200.jpg 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb41abea4f4a82c1e6f2a6_DJI_0058.jpg 5317w"
+                                alt="" class="image-4 parallax-img-inner image-11" /></div>
+                    </div>
+                    <p id="w-node-_4df0cf00-9023-cad1-a790-972aad7bcdd8-6edac1ae" class="body-large" data-i18n="about_text_3">En el camino, la
+                        fauna se deja sentir con sutileza y asombro. Desde los vuelos majestuosos del <strong>cóndor
+                            andino</strong> hasta el canto vibrante de los colibríes, pasando por venados de montaña,
+                        osos de anteojos y pequeños insectos de colores brillantes que parecen joyas vivientes. Estas
+                        especies son parte de la identidad de la región y nos invitan a vivir el viaje no solo como un
+                        recorrido físico, sino como un encuentro profundo con la biodiversidad. En <strong>Nevado
+                            Trek</strong>, creemos que cada tour es una oportunidad para reconectar con la naturaleza y
+                        redescubrirnos en ella.<br /></p>
+                </div>
+            </section>
+            <section class="section-4">
+                <h1 id="w-node-dbd52477-ac7f-ff15-86f3-5a68f2a68da9-6edac1ae" class="h-5 italic f-light" data-i18n="faq_title">( Preguntas
+                    Frecuentes )</h1>
+                <div id="w-node-_34a136ca-0bd8-4b49-2980-2896e53777e3-6edac1ae" class="div-block-94">
+                    <div data-w-id="0ec5ae23-e80f-5ea2-d38e-97ac62a54e01" class="accordion-item-wrapper v2 light">
+                        <div class="accordion-content-wrapper v2">
+                            <div class="accordion-header">
+                                <h3 class="h-5 f-light" data-i18n="faq_q1">How do I start working with you and how do I send a request?
+                                </h3>
+                            </div>
+                            <div style="height:0px;-webkit-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="acordion-body">
+                                <div class="accordion-spacer"></div>
+                                <div class="div-block-59">
+                                    <p class="mg-bottom-0 body-large light" data-i18n="faq_a1">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus
+                                        feugiat ut egestas ut sagittis tincidunt phasellus elit etiam cursus orci in. Id
+                                        sed montes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-side right-side">
+                            <div class="accordion-icon-wrapper">
+                                <div class="accordion-btn-line v2 vertical light"></div>
+                                <div class="accordion-btn-line v2 horizontal light"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-id="816600b9-5ea9-dd73-9ef1-e9b2ca14263c" class="accordion-item-wrapper v2 light">
+                        <div class="accordion-content-wrapper v2">
+                            <div class="accordion-header">
+                                <h3 class="h-5 f-light" data-i18n="faq_q2">How do I start working with you and how do I send a request?
+                                </h3>
+                            </div>
+                            <div style="height:0px;-webkit-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="acordion-body">
+                                <div class="accordion-spacer"></div>
+                                <div class="div-block-59">
+                                    <p class="mg-bottom-0 body-large light" data-i18n="faq_a2">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus
+                                        feugiat ut egestas ut sagittis tincidunt phasellus elit etiam cursus orci in. Id
+                                        sed montes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-side right-side">
+                            <div class="accordion-icon-wrapper">
+                                <div class="accordion-btn-line v2 vertical light"></div>
+                                <div class="accordion-btn-line v2 horizontal light"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-id="a3c9e2de-9ca5-d7e9-483c-e7b0e4b572b9" class="accordion-item-wrapper v2 light">
+                        <div class="accordion-content-wrapper v2">
+                            <div class="accordion-header">
+                                <h3 class="h-5 f-light" data-i18n="faq_q3">How do I start working with you and how do I send a request?
+                                </h3>
+                            </div>
+                            <div style="height:0px;-webkit-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="acordion-body">
+                                <div class="accordion-spacer"></div>
+                                <div class="div-block-59">
+                                    <p class="mg-bottom-0 body-large light" data-i18n="faq_a3">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus
+                                        feugiat ut egestas ut sagittis tincidunt phasellus elit etiam cursus orci in. Id
+                                        sed montes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-side right-side">
+                            <div class="accordion-icon-wrapper">
+                                <div class="accordion-btn-line v2 vertical light"></div>
+                                <div class="accordion-btn-line v2 horizontal light"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-w-id="695ecf6e-80a3-123c-cb75-2f8499b3b4dc" class="accordion-item-wrapper v2 light">
+                        <div class="accordion-content-wrapper v2">
+                            <div class="accordion-header">
+                                <h3 class="h-5 f-light" data-i18n="faq_q4">How do I start working with you and how do I send a request?
+                                </h3>
+                            </div>
+                            <div style="height:0px;-webkit-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, 20px, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="acordion-body">
+                                <div class="accordion-spacer"></div>
+                                <div class="div-block-59">
+                                    <p class="mg-bottom-0 body-large light" data-i18n="faq_a4">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit id venenatis pretium risus euismod dictum egestas orci netus
+                                        feugiat ut egestas ut sagittis tincidunt phasellus elit etiam cursus orci in. Id
+                                        sed montes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-side right-side">
+                            <div class="accordion-icon-wrapper">
+                                <div class="accordion-btn-line v2 vertical light"></div>
+                                <div class="accordion-btn-line v2 horizontal light"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" data-w-id="99043b72-a04b-0444-7d1f-247a987a2770" class="section is--about">
+                <div data-wf-target="[[[&quot;68cb38e0bae5b4c56edac1ae&quot;,&quot;99043b72-a04b-0444-7d1f-247a987a2772&quot;],[]]]"
+                    data-w-id="99043b72-a04b-0444-7d1f-247a987a2772" style="opacity:0" class="about-card light _01"><svg
+                        xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="64" height="64"
+                        viewBox="0 0 56 56" app="ikonik" class="ikonik-zulho">
+                        <path fill-rule="evenodd"
+                            d="M24,48 C10.745166,48 0,37.254834 0,24 C0,10.745166 10.745166,0 24,0 C37.254834,0 48,10.745166 48,24 C48,37.254834 37.254834,48 24,48 Z M27.6365492,27.6365492 L34.9096475,13.0903525 L20.3634508,20.3634508 L13.0903525,34.9096475 L27.6365492,27.6365492 L27.6365492,27.6365492 Z M16.9236119,31.0763881 L21.6902248,21.5431623 L26.4568377,26.3097752 L16.9236119,31.0763881 Z"
+                            transform="translate(4 4)" app="ikonik"></path>
+                    </svg>
+                    <div class="style-p_large about-card-p italic" data-i18n="certified_guides">Guías Certificados <br />y Locales</div>
+                </div>
+                <div data-w-id="99043b72-a04b-0444-7d1f-247a987a2783" style="opacity:0"
+                    class="logo-container tripadvisor"><img
+                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine.png"
+                        loading="lazy" sizes="(max-width: 3000px) 100vw, 3000px"
+                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-500.png 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-800.png 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-1080.png 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-1600.png 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine.png 3000w"
+                        alt="" class="image-2" /></div>
+                <div data-w-id="99043b72-a04b-0444-7d1f-247a987a2785" style="opacity:0" class="about-card light _03">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="20" height="20"
+                        viewBox="0 0 256 256" app="ikonik" class="ikonik-1x7gxk">
+                        <path
+                            d="M128,187.85a72.44,72.44,0,0,0,8,4.62V232a8,8,0,0,1-16,0V192.47A72.44,72.44,0,0,0,128,187.85ZM198.1,62.59a76,76,0,0,0-140.2,0A71.71,71.71,0,0,0,16,127.8C15.9,166,48,199,86.14,200A72.22,72.22,0,0,0,120,192.47V156.94L76.42,135.16a8,8,0,1,1,7.16-14.32L120,139.06V88a8,8,0,0,1,16,0v27.06l36.42-18.22a8,8,0,1,1,7.16,14.32L136,132.94v59.53A72.17,72.17,0,0,0,168,200l1.82,0C208,199,240.11,166,240,127.8A71.71,71.71,0,0,0,198.1,62.59Z"
+                            app="ikonik"></path>
+                        <rect width="256" height="256" fill="none" app="ikonik"></rect>
+                    </svg>
+                    <div class="style-p_large italic" data-i18n="clean_tourism">Turismo Limpio y <br />Sustentable</div>
+                </div>
+                <div data-w-id="99043b72-a04b-0444-7d1f-247a987a27a0" style="opacity:0" class="logo-container turism">
+                    <img src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026).png"
+                        loading="lazy" sizes="(max-width: 4034px) 100vw, 4034px"
+                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-500.png 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-800.png 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-1080.png 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-1600.png 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-2000.png 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-2600.png 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-3200.png 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026).png 4034w"
+                        alt="" class="image-2" /></div>
+            </section>
+            <div class="div-block-110">
+                <div class="div-block-111">
+                    <div class="logo-container"><img
+                            src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026).png"
+                            loading="lazy" sizes="(max-width: 4034px) 100vw, 4034px"
+                            srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-500.png 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-800.png 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-1080.png 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-1600.png 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-2000.png 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-2600.png 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026)-p-3200.png 3200w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a7c3809dbc5b04d88a_Logo_Ministerio_de_Comercio%2C_Industria_y_Turismo_(2022-2026).png 4034w"
+                            alt="" class="image-2" /></div>
+                    <div class="logo-container"><img
+                            src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine.png"
+                            loading="lazy" sizes="(max-width: 3000px) 100vw, 3000px"
+                            srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-500.png 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-800.png 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-1080.png 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine-p-1600.png 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cc64a68c2ec2e8c2a9dd40_TripAdvisor-Logo.wine.png 3000w"
+                            alt="" class="image-2" /></div>
+                </div>
+                <div class="parallax-img-wrapper last-home">
+                    <div class="parallax-img-container full-widht"><img
+                            src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%CC%88stro%CC%88m-1295036.jpg"
+                            loading="lazy" sizes="(max-width: 2854px) 100vw, 2854px"
+                            srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-500.jpg 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-800.jpg 800w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-1080.jpg 1080w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-1600.jpg 1600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-2000.jpg 2000w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%25CC%2588stro%25CC%2588m-1295036-p-2600.jpg 2600w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb69bb84e60d89545776bf_pexels-oliver-sjo%CC%88stro%CC%88m-1295036.jpg 2854w"
+                            alt="" class="image-4 parallax-img-inner full-widh" /></div>
+                </div>
+                <div data-w-id="8bd1a33d-cbd0-7abd-2e5f-46a7791a6d10" class="section2 moving-gallery">
+                    <div class="moving-gallery-wrapper">
+                        <div class="w-layout-grid moving-gallery-top-grid">
+                            <div id="w-node-_8bd1a33d-cbd0-7abd-2e5f-46a7791a6d13-6edac1ae"
+                                class="moving-gallery-image"></div>
+                            <div id="w-node-_8bd1a33d-cbd0-7abd-2e5f-46a7791a6d14-6edac1ae"
+                                class="moving-gallery-image mg-image-2"></div>
+                            <div id="w-node-_8bd1a33d-cbd0-7abd-2e5f-46a7791a6d15-6edac1ae"
+                                class="moving-gallery-image mg-image-3"></div>
+                            <div class="fullscreen-card">
+                                <h3 class="style-h1">+5</h3>
+                                <div class="style-p_large" data-i18n="experience_years">→ Años de <br />experiencia</div>
+                            </div>
+                        </div>
+                        <div class="w-layout-grid moving-gallery-bottom-grid">
+                            <div id="w-node-_8bd1a33d-cbd0-7abd-2e5f-46a7791a6d18-6edac1ae"
+                                class="moving-gallery-image mg-image-5"></div>
+                            <div class="fullscreen-card v-2">
+                                <h3 class="style-h1">+200</h3>
+                                <div class="style-p_large" data-i18n="successful_expeditions">→ Expediciones <br />exitosas</div>
+                            </div>
+                            <div id="w-node-_8bd1a33d-cbd0-7abd-2e5f-46a7791a6d19-6edac1ae"
+                                class="moving-gallery-image mg-image-6"></div>
+                            <div id="w-node-_8bd1a33d-cbd0-7abd-2e5f-46a7791a6d1a-6edac1ae"
+                                class="moving-gallery-image mg-image-7"></div>
+                        </div>
+                    </div>
+                    <div class="div-block-106">
+                        <p class="split-lines_large f-blue f-tours-2-heading f-center"><span class="word-span-1">No
+                            </span><span class="word-span-2">importa </span><span class="word-span-3">la </span><span
+                                class="word-span-4">ruta </span><span class="word-span-5">que </span><span
+                                class="word-span-6">elijas, </span><span class="word-span-7">lo </span><span
+                                class="word-span-8">más </span><span class="word-span-9">valioso </span><span
+                                class="word-span-10">es </span> </p>
+                    </div>
+                    <div>
+                        <div data-w-id="bdf13adc-18b4-769f-f6e6-04ded260236b" style="opacity:0" class="button-6 small">
+                            <div class="div-block-105"></div>
+                            <div class="body-medium">Ver Tours</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="about" class="section is--footer">
+            <div class="aerokit_common-container _50px-padding">
+                <div class="footer_wrap f-white">
+                    <div class="footer_top-2">
+                        <div class="footer_left-2">
+                            <div class="footer_brand"><img
+                                    src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68cb5ce8c1d01041b785dbbc_68718d175d5c3bac2cb5bb76_mainLogo.6fc859d138dc2b4452694a44bdc7e57f%201.svg"
+                                    loading="lazy" alt="" />
+                                <div class="style-p_large italic">Nevado Trek</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-block-79">
+                        <div class="div-block-80">
+                            <p class="body-large" data-i18n="footer_text">Connect people with opportunities that bring more fulfillment to their
+                                lives.</p>
+                            <div class="footer_socials"><a href="#" class="footer_icon-wrap-2 w-inline-block"><img
+                                        sizes="(max-width: 512px) 100vw, 512px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b1f_facebook%2520(1)-p-500.png 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b1f_facebook%20(1).png 512w"
+                                        alt=""
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b1f_facebook%20(1).png"
+                                        loading="lazy" /></a><a href="#" class="footer_icon-wrap-2 w-inline-block"><img
+                                        sizes="(max-width: 512px) 100vw, 512px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b2e_instagram-p-500.png 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b2e_instagram.png 512w"
+                                        alt=""
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b2e_instagram.png"
+                                        loading="lazy" /></a><a href="#" class="footer_icon-wrap-2 w-inline-block"><img
+                                        sizes="(max-width: 512px) 100vw, 512px"
+                                        srcset="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b29_linkedin%2520(1)-p-500.png 500w, https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b29_linkedin%20(1).png 512w"
+                                        alt=""
+                                        src="https://cdn.prod.website-files.com/68cb38dfbae5b4c56edac13a/68d209849b388b75d0e90b29_linkedin%20(1).png"
+                                        loading="lazy" /></a></div>
+                        </div>
+                        <div class="footer_right-2">
+                            <div class="footer_links-wrap"><a href="#" class="footer_link-2 italic" data-i18n="footer_careers">Careers</a><a
+                                    href="#" class="footer_link-2" data-i18n="footer_press">Press &amp; media</a><a href="#"
+                                    class="footer_link-2" data-i18n="footer_browse">Browse jobs</a><a href="#" class="footer_link-2" data-i18n="footer_employer">Employer
+                                    support</a></div>
+                            <div class="footer_links-wrap"><a href="#" class="footer_link-2 italic" data-i18n="footer_careers">Careers</a><a
+                                    href="#" class="footer_link-2" data-i18n="footer_press">Press &amp; media</a><a href="#"
+                                    class="footer_link-2" data-i18n="footer_browse">Browse jobs</a><a href="#" class="footer_link-2" data-i18n="footer_employer">Employer
+                                    support</a></div>
+                        </div>
+                    </div>
+                    <div class="footer_bottom">
+                        <div class="footer-bottom-content">
+                            <p class="body-medium" data-i18n="footer_copyright">© 2025 Nevado Trek</p>
+                            <div class="div-block-83">
+                                <p class="body-small" data-i18n="footer_lang">Eng / Esp</p>
+                            </div>
+                            <p class="body-medium italic" data-i18n="footer_made_by">Made by Christian Sandoval</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/jquery-3.5.1.min.dc5e7f18c8.js?site=68cb38dfbae5b4c56edac13a"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="js/webflow.schunk.6c669f8d627d0abb.js"
+        type="text/javascript"></script>
+    <script src="js/webflow.schunk.4c2c4fe8222a5934.js"
+        type="text/javascript"></script>
+    <script src="js/webflow.schunk.2c4c4ac4a76bfa1a.js"
+        type="text/javascript"></script>
+    <script src="js/webflow.ba79d5f8.10b6f388c285a0fb.js"
+        type="text/javascript"></script>
+    <script src="js/gsap.min.js" type="text/javascript"></script>
+    <script src="js/ScrollTrigger.min.js" type="text/javascript"></script>
+    <script src="js/SplitText.min.js" type="text/javascript"></script>
+    <script src="js/language.js" type="text/javascript"></script>
+</body>
+
+</html>
